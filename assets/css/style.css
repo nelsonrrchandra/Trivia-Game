@@ -1,0 +1,82 @@
+body {
+	background-color: #fff263;
+}
+
+#imageDisp, #answerDisp{
+	background-color: #ffcc56;
+	border-style: solid;
+	border-color: #ffaa56;
+	border-width: 6px;
+	
+}
+
+#imageDisp{
+	height: 350px;
+	width: 350px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#memeImage{
+	border-style: solid;
+	border-color: #ffaa56;
+	border-width: 3px;
+}
+
+#answerDisp{
+	height: 220px;
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#memeImage {
+	width: 300px;
+	height: 300px;
+}
+
+#bigButton {
+	width: 30%;
+	margin-top: 20px;
+	margin-left: 35%;
+	text-align: center;
+	font-size: 40px;
+}
+
+#bigButton:hover {
+	font-size: 50px;
+	background-color: #ffd677;
+	font-color: #f46f1d;
+}
+
+.answer {
+	width: 50%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 25%;
+	font-size: 20px;
+	text-align: center;
+}
+
+.answer:hover {
+	font-size: 22px;
+	background-color: #ffd677;
+	color: #f46f1d;
+}
+
+#textDisp {
+	font-size: 24px;
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+}
+
+#timerDisp {
+	width: 25%;
+	margin-left: 35%;
+	text-align: center;
+	font-size: 25px;
+	color: #ff5a3d;
+}
